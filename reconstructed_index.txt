@@ -1,0 +1,352 @@
+1: <!DOCTYPE html>
+2: <html lang="en-GB">
+3: <head>
+4:     <meta charset="UTF-8">
+5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6:     <title>Restek UK Ltd - Your Rock for Remediation</title>
+7:     <meta name="description" content="Restek UK Ltd - Specialist ground remediation, structural repair, waterproofing, and GPR services across infrastructure, commercial, and residential sectors. Your rock for remediation.">
+8:     <meta property="og:locale" content="en_GB">
+9:     <meta property="og:type" content="website">
+10:     <meta property="og:title" content="Restek UK Ltd - Your Rock for Remediation">
+11:     <meta property="og:url" content="https://restekltd.com/">
+12:     <meta property="og:site_name" content="Restek UK Ltd">
+13:     <link rel="preconnect" href="https://fonts.googleapis.com">
+14:     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+15:     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+16:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+17:     <link rel="stylesheet" href="css/styles.css">
+18: </head>
+19: <body>
+20:     <!-- Top Bar -->
+21:     <div class="top-bar">
+22:         <div class="container">
+23:             <div class="top-bar-content">
+24:                 <div class="top-bar-left">
+25:                     <a href="tel:+441773438905" class="top-bar-link" id="top-phone">
+26:                         <i class="fas fa-phone"></i>
+27:                         <span>01773 438905</span>
+28:                     </a>
+29:                     <a href="mailto:info@restekltd.com" class="top-bar-link" id="top-email">
+30:                         <i class="fas fa-envelope"></i>
+31:                         <span>info@restekltd.com</span>
+32:                     </a>
+33:                 </div>
+34:                 <div class="top-bar-right">
+35:                     <div class="social-links">
+36:                         <a href="https://www.facebook.com/RestekLTD/" target="_blank" rel="noopener" aria-label="Facebook" id="social-facebook"><i class="fab fa-facebook-f"></i></a>
+37:                         <a href="https://twitter.com/RestekUKLTD" target="_blank" rel="noopener" aria-label="Twitter" id="social-twitter"><i class="fab fa-x-twitter"></i></a>
+38:                         <a href="https://www.instagram.com/restek_ukltd/" target="_blank" rel="noopener" aria-label="Instagram" id="social-instagram"><i class="fab fa-instagram"></i></a>
+39:                         <a href="https://www.youtube.com/channel/UCi-WhqzECs9Lo9z_r0eNfmw" target="_blank" rel="noopener" aria-label="YouTube" id="social-youtube"><i class="fab fa-youtube"></i></a>
+40:                         <a href="https://www.linkedin.com/company/restek-uk-limited/" target="_blank" rel="noopener" aria-label="LinkedIn" id="social-linkedin"><i class="fab fa-linkedin-in"></i></a>
+41:                     </div>
+42:                 </div>
+43:             </div>
+44:         </div>
+45:     </div>
+46: 
+47:     <!-- Header -->
+48:     <header class="header" id="main-header">
+49:         <div class="container">
+50:             <div class="header-content">
+51:                 <a href="index.html" class="logo" id="site-logo">
+52:                     <span class="logo-text">RESTEK</span>
+53:                     <span class="logo-tagline">UK LTD</span>
+54:                 </a>
+55:                 <nav class="main-nav" id="main-nav">
+56:                     <ul class="nav-list">
+57:                         <li class="nav-item active"><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
+58:                         <li class="nav-item"><a href="about.html" class="nav-link" id="nav-about">About Us</a></li>
+59:                         <li class="nav-item has-dropdown">
+60:                             <a href="services.html" class="nav-link" id="nav-services">Solutions & Services <i class="fas fa-chevron-down"></i></a>
+61:                             <div class="mega-dropdown" id="services-dropdown">
+62:                                 <div class="mega-dropdown-inner">
+63:                                     <div class="mega-col">
+64:                                         <h4 class="mega-heading"><i class="fas fa-road"></i> Infrastructure</h4>
+65:                                         <ul class="mega-list">
+66:                                             <li><a href="services.html#ground-remediation">Ground Remediation</a></li>
+67:                                             <li><a href="services.html#gpr">Ground Penetrating Radar (GPR)</a></li>
+68:                                             <li><a href="services.html#surface-coatings">Surface Coatings</a></li>
+69:                                             <li><a href="services.html#crack-repair">Crack Repair</a></li>
+70:                                             <li><a href="services.html#structural-strengthening">Structural Strengthening</a></li>
+71:                                             <li><a href="services.html#waterproofing">Waterproofing</a></li>
+72:                                         </ul>
+73:                                     </div>
+74:                                     <div class="mega-col">
+75:                                         <h4 class="mega-heading"><i class="fas fa-building"></i> Commercial</h4>
+76:                                         <ul class="mega-list">
+77:                                             <li><a href="services.html#ground-remediation">Ground Remediation</a></li>
+78:                                             <li><a href="services.html#gpr">Ground Penetrating Radar – GPR</a></li>
+79:                                             <li><a href="services.html#crack-repair">Crack Repair</a></li>
+80:                                             <li><a href="services.html#surface-coatings">Surface Coatings</a></li>
+81:                                             <li><a href="services.html#structural-strengthening">Structural Strengthening</a></li>
+82:                                             <li><a href="services.html#waterproofing">Waterproofing</a></li>
+83:                                         </ul>
+84:                                     </div>
+85:                                     <div class="mega-col">
+86:                                         <h4 class="mega-heading"><i class="fas fa-house"></i> Residential</h4>
+87:                                         <ul class="mega-list">
+88:                                             <li><a href="services.html#subsidence">Subsidence & Ground Stabilisation</a></li>
+89:                                             <li><a href="services.html#crack-repair">Crack Repair</a></li>
+90:                 ><i class="fab fa-linkedin-in"></i
+91:               ></a>
+92:             </div>
+93:           </div>
+94:         </div>
+95:       </div>
+96:     </div>
+97: 
+98:     <!-- Header -->
+99:     <header class="header" id="main-header">
+100:       <div class="container">
+101:         <div class="header-content" style="display: contents;">
+102:           <a href="index.html" class="header__logo" id="site-logo">
+103:             <span class="header__logo-text">RESTEK</span>
+104:             <span class="logo-tagline">UK LTD</span>
+105:           </a>
+106:           <nav class="nav" id="main-nav">
+107:             <ul class="nav__list">
+108:               <li class="nav__item active">
+109:                 <a href="index.html" class="nav__link" id="nav-home">Home</a>
+110:               </li>
+111:               <li class="nav__item">
+112:                 <a href="about.html" class="nav__link" id="nav-about"
+113:                   >About Us</a
+114:                 >
+115:               </li>
+116:               <li class="nav__dropdown">
+117:                 <a href="services.html" class="nav__link" id="nav-services"
+118:                   >Solutions & Services <i class="fas fa-chevron-down"></i
+119:                 ></a>
+120:                 <div class="nav__dropdown-menu" id="services-dropdown">
+121:                   <div class="mega-dropdown-inner">
+122:                     <div class="mega-col">
+123:                       <h4 class="mega-heading">
+124:                         <i class="fas fa-road"></i> Infrastructure
+125:                       </h4>
+126:                       <ul class="mega-list">
+127:                         <li>
+128:                           <a href="services.html#ground-remediation"
+129:                             >Ground Remediation</a
+130:                           >
+131:                         </li>
+132:                         <li>
+133:                           <a href="services.html#gpr"
+134:                             >Ground Penetrating Radar (GPR)</a
+135:                           >
+136:                         </li>
+137:                         <li>
+138:                           <a href="services.html#surface-coatings"
+139:                             >Surface Coatings</a
+140:                           >
+141:                         </li>
+142:                         <li>
+143:                           <a href="services.html#crack-repair">Crack Repair</a>
+144:                         </li>
+145:                         <li>
+146:                           <a href="services.html#structural-strengthening"
+147:                             >Structural Strengthening</a
+148:                           >
+149:                         </li>
+150:                         <li>
+200:                           >
+201:                         </li>
+202:                         <li>
+203:                           <a href="services.html#crack-repair">Crack Repair</a>
+204:                         </li>
+205:                         <li>
+206:                           <a href="services.html#surface-coatings"
+207:                             >Surface Coatings</a
+208:                           >
+209:                         </li>
+210:                         <li>
+211:                           <a href="services.html#waterproofing"
+212:                             >Waterproofing</a
+213:                           >
+214:                         </li>
+215:                       </ul>
+216:                     </div>
+217:                   </div>
+218:                 </div>
+219:               </li>
+220:               <li class="nav__item">
+221:                 <a href="projects.html" class="nav__link" id="nav-projects"
+222:                   >Projects</a
+223:                 >
+224:               </li>
+225:               <li class="nav__item">
+226:                 <a href="contact.html" class="nav__link" id="nav-contact"
+227:                   >Contact</a
+228:                 >
+229:               </li>
+230:             </ul>
+231:           </nav>
+232:           <a
+233:             href="contact.html"
+234:             class="btn btn-primary header-cta"
+235:             id="header-cta"
+236:             >Get a Quote</a
+237:           >
+238:           <button
+239:             class="mobile-toggle"
+240:             id="mobile-toggle"
+241:             aria-label="Toggle Menu"
+242:           >
+243:             <span></span>
+244:             <span></span>
+245:             <span></span>
+246:           </button>
+247:         </div>
+248:       </div>
+249:     </header>
+250: 
+251:     <!-- Mobile Menu Overlay -->
+252:     <div class="mobile-menu-overlay" id="mobile-menu">
+253:       <div class="mobile-menu-content">
+254:         <ul class="mobile-nav-list">
+255:           <li><a href="index.html" class="active">Home</a></li>
+256:           <li><a href="about.html">About Us</a></li>
+257:           <li><a href="services.html">Solutions & Services</a></li>
+258:           <li><a href="projects.html">Projects</a></li>
+259:           <li><a href="contact.html">Contact</a></li>
+260:         </ul>
+261:         <a href="contact.html" class="btn btn-primary mobile-cta"
+262:           >Get a Quote</a
+263:         >
+264:       </div>
+265:     </div>
+266: 
+267:     <!-- Hero Section -->
+268:     <section class="hero" id="hero-section">
+269:       <div class="hero__bg">
+270:         <img
+271:           src="images/hero-bg.png"
+272:           alt="Restek UK ground remediation project"
+273:           loading="eager"
+274:         />
+275:         <div class="hero-overlay"></div>
+276:       </div>
+277:       <div class="hero-particles" id="hero-particles"></div>
+278:       <div class="container">
+279:         <div class="hero-content animate-on-scroll">
+280:           <div class="hero-badge">
+281:             <span class="badge-dot"></span>
+282:             Your Rock for Remediation
+283:           </div>
+284:           <h1 class="hero-title">
+285:             Specialist Ground <span class="gradient-text">Remediation</span> &
+286:             Structural Repair
+287:           </h1>
+288:           <p class="hero-subtitle">
+289:             Industry-leading solutions in ground stabilisation, structural
+290:             strengthening, waterproofing, crack repair, and ground penetrating
+291:             radar across infrastructure, commercial, and residential sectors.
+292:           </p>
+293:           <div class="hero-actions">
+294:             <a
+295:               href="services.html"
+296:               class="btn btn-primary btn-lg"
+297:               id="hero-cta-services"
+298:             >
+299:               Our Services
+300:               <i class="fas fa-arrow-right"></i>
+850:               <li><a href="#">Anti-Slavery Policy</a></li>
+851:             </ul>
+852:           </div>
+853:           <div class="footer-col">
+854:             <h4 class="footer-heading">Our Services</h4>
+855:             <ul class="footer__links">
+856:               <li>
+857:                 <a href="services.html#ground-remediation"
+858:                   >Ground Remediation</a
+859:                 >
+860:               </li>
+861:               <li><a href="services.html#gpr">Ground Penetrating Radar</a></li>
+862:               <li><a href="services.html#crack-repair">Crack Repair</a></li>
+863:               <li>
+864:                 <a href="services.html#surface-coatings">Surface Coatings</a>
+865:               </li>
+866:               <li>
+867:                 <a href="services.html#structural-strengthening"
+868:                   >Structural Strengthening</a
+869:                 >
+870:               </li>
+871:               <li><a href="services.html#waterproofing">Waterproofing</a></li>
+872:               <li><a href="#">Remediation Service Guide</a></li>
+873:             </ul>
+874:           </div>
+875:           <div class="footer-col">
+876:             <h4 class="footer-heading">Newsletter</h4>
+877:             <p class="footer__newsletter-text">
+878:               Subscribe to our newsletter for the latest news, project updates,
+879:               and industry insights.
+880:             </p>
+881:             <form
+882:               class="newsletter-form"
+883:               id="newsletter-form"
+884:               action="https://restek-ukltd.us14.list-manage.com/subscribe/post?u=fb0e07f880c3faa5422b6c4bd&id=adb45fe69a"
+885:               method="post"
+886:               target="_blank"
+887:               novalidate
+888:             >
+889:               <div class="newsletter-input-group">
+890:                 <input
+891:                   type="email"
+892:                   name="EMAIL"
+893:                   placeholder="Your email address"
+894:                   required
+895:                   id="newsletter-email"
+896:                 />
+897:                 <button
+898:                   type="submit"
+899:                   class="btn btn-primary"
+900:                   id="newsletter-submit"
+901:                 >
+902:                   <i class="fas fa-paper-plane"></i>
+903:                 </button>
+904:               </div>
+905:               <div class="newsletter-fields">
+906:                 <input
+907:                   type="text"
+908:                   name="FNAME"
+909:                   placeholder="First Name"
+910:                   id="newsletter-fname"
+911:                 />
+912:                 <input
+913:                   type="text"
+914:                   name="LNAME"
+915:                   placeholder="Last Name"
+916:                   id="newsletter-lname"
+917:                 />
+918:               </div>
+919:               <div style="position: absolute; left: -5000px" aria-hidden="true">
+920:                 <input
+921:                   type="text"
+922:                   name="b_fb0e07f880c3faa5422b6c4bd_adb45fe69a"
+923:                   tabindex="-1"
+924:                   value=""
+925:                 />
+926:               </div>
+927:             </form>
+928:           </div>
+929:         </div>
+930:         <div class="footer__bottom">
+931:           <p>
+932:             &copy; 2022-2026
+933:             <strong><a href="index.html">Restek UK Ltd</a></strong
+934:             >. All rights reserved.
+935:           </p>
+936:           <p>Specialist Remediation Contractors</p>
+937:         </div>
+938:       </div>
+939:     </footer>
+940: 
+941:     <!-- Cookie Banner -->
+942:     <div class="cookie-banner" id="cookie-banner">
+943:       <div class="cookie-content">
+944:         <p>
+945:           We use cookies on our website to give you the most relevant experience
+946:           by remembering your preferences and repeat visits. By clicking "Accept
+947:           All", you consent to the use of ALL the cookies.
+948:         </p>
+949:         <div class="cookie-actions">
+950:           <button class="btn btn-outline btn-sm" id="cookie-settings-btn">
